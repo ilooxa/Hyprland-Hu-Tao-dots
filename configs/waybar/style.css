@@ -1,0 +1,95 @@
+* {
+	border-radius: 20;
+	border: none;
+	font-family: sans-serif, SymbolsNerdFont;
+	font-weight: normal;
+	font-size: 12px;
+	padding: 0px 5px;
+	margin: 0px 5px;
+}
+
+@define-color bg #000000;
+@define-color fg #000000;
+@define-color gr #545d70;
+@define-color red #f7768e;
+@define-color green #b9f27c;
+@define-color blue #94e2d5;
+@define-color cyan #eeb5f5;
+@define-color bg2  #f5e0dc;
+
+window#waybar {
+        background-color: rgba(43, 48, 59, 0.0);
+    color: #ffffff;
+    transition-property: background-color;
+    transition-duration: .5s;
+    min-height: 20px;   /* set waybar's height to 18px */
+}
+
+#workspaces {
+	color: @fg;
+	background-color: transparent;
+	border: none;
+	border-radius: 20;
+	margin: 0px;
+	padding: 0px;
+}
+
+#workspaces button {
+	padding: 0 0px;
+	background-color: transparent;
+	margin: 0px;
+	color: @gr;
+}
+#workspaces button:hover {
+}
+#workspaces button.active {
+        color: @fg;
+
+}
+
+
+
+#cpu {
+        color: @fg;
+}
+#memory {
+        color: @fg;
+}
+#window {
+        color: @fg;
+}
+#tray,
+#language,
+#pulseaudio,
+#custom-wttr,
+#clock {
+	color: @fg;
+	font-size: 12px;
+}
+
+#custom-power { 
+        color: @fg;
+	padding: 0 10px;
+	font-weight: bold;
+}
+
+#custom-menu {
+	color: @fg;
+	padding: 0 10px;
+	font-size: 15px;
+}
+
+#custom-sep {
+	color: rgba(0, 0, 0, 0.0);
+}
+
+#window {
+	background-color: transparent;
+	color: @fg;
+	font-weight: bold;
+}
+
+
+#custom-music {
+	color: @fg;
+}
