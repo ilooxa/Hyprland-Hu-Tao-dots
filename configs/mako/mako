@@ -8,25 +8,25 @@ sort=-time
 output=DP-2
 layer=overlay
 anchor=top-right
-background-color=#33313d
+background-color=#ffffff
 width=300
 height=110
 margin=5
 padding=0,5,10
 border-size=2
-border-color=#f5cec6
+border-color=#ff0000
 border-radius=15
 icons=0
 max-icon-size=64
 default-timeout=5000
 ignore-timeout=1
-text-color=#ffffff
+text-color=#000000
 
 [urgency=normal]
-border-color=#3b5746
+border-color=#ff0000
 
 [urgency=high]
-border-color=#bf616a
+border-color=#ff0000
 default-timeout=0
 
 [app-name=lightcord]
