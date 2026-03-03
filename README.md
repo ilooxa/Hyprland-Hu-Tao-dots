@@ -7,3 +7,5 @@
 ```
 sudo pacman -S hyprland hyprpaper mako alacritty waybar wofi ttf-jetbrains-mono ttf-nerd-fonts-symbols ttf-font-awesome nemo playerctl && yay -S catppuccin-cursors-mocha catppuccin-cursors-mocha catppuccin-gtk-theme-mocha wlogout
 ```
+and  
+"ln -s configs/* ~/.config"
