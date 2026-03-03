@@ -1,9 +1,0 @@
-[13:37:11 2026-03-03] FETCHING Version 2.42.13
-[13:37:11 2026-03-03] DOWNLOADING https://github.com/spicetify/cli/releases/download/v2.42.13/spicetify-2.42.13-linux-amd64.tar.gz
-[13:37:13 2026-03-03] EXTRACTING /home/ilooxa/.spicetify/spicetify.tar.gz
-[13:37:13 2026-03-03] SETTING EXECUTABLE PERMISSIONS TO /home/ilooxa/.spicetify/spicetify
-[13:37:13 2026-03-03] REMOVING /home/ilooxa/.spicetify/spicetify.tar.gz
-[13:37:13 2026-03-03] spicetify path already set in /home/ilooxa/.bashrc, continuing...
-[13:37:13 2026-03-03] spicetify path already set in /home/ilooxa/.bash_profile, continuing...
-[13:37:13 2026-03-03] spicetify v2.42.13 was installed successfully to /home/ilooxa/.spicetify
-[13:37:13 2026-03-03] Run 'spicetify --help' to get started
